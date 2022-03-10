@@ -118,6 +118,14 @@
 # infile.close()
 
 
-list_of_names = ("Dionicio", "John", ["A", (1, 2, 3), "B", "C"])
+# list_of_names = ("Dionicio", "John", ["A", (1, 2, 3), "B", "C"])
 
-print("list_of_names", list_of_names[2][1][-1])
+# print("list_of_names", list_of_names[2][1][-1])
+
+list1 = ["A", "B", "C"]
+
+list2 = list(list1)
+
+list2.append("D")
+
+print(list1)
